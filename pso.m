@@ -1,4 +1,4 @@
-function [ g  particles ] = pso( nb_particles, iterations )
+function [ g p particles ] = pso( nb_particles, iterations )
 %PSO Summary of this function goes here
 %   Detailed explanation goes here
 particles = [randi(10,nb_particles,1) randi(5,nb_particles,1)]
@@ -20,19 +20,22 @@ phi_g = 1;
 velocities= [(randi(20,nb_particles,1)-10) (randi(10,nb_particles,1)-5)];
 
 for k=1:iterations
+    fprintf('Iteration %d \n___________\n',k)
     for i=1:nb_particles
         r_p = rand(1);					
         r_g = rand(1);					
         velocities(i,1)	= omega*velocities(i,1)+phi_p*r_p*(p(i,1)-particles(i,1))+phi_g*r_g*(g(1,1)-particles(i,1));
         velocities(i,2)	= omega*velocities(i,2)+phi_p*r_p*(p(i,2)-particles(i,2))+phi_g*r_g*(g(1,2)-particles(i,2));
-        particles(i,:) = floor(particles(i,:) + velocities(i,:));
+        particles(i,:) = round(particles(i,:) + velocities(i,:));
 
+        fprintf('Particle %d : (%d,%d) \n',i,particles(i,1),particles(i,2))
+        
         if weight(particles(i,:))< weight(p(i,:))
                 p(i,:) = particles(i,:);
-                WP = weight(particles(i,:))
-                WG = weight(g)
+                fprintf('New Personal Best for %d: (%d,%d) with weight=%d \n',i,p(i,1),p(i,2),weight(p(i,:)))
             if weight(particles(i,:))< weight(g)
                 g = particles(i,1:2);
+                fprintf('New Global Best (%d,%d) with f(g)=%d \n',g(1),g(2),weight(g))
             end
         end
     end

@@ -5,9 +5,10 @@
 \contentsline {section}{\numberline {4}Genetic Algorithm}{4}{section.4}
 \contentsline {subsection}{\numberline {4.1}code}{4}{subsection.4.1}
 \contentsline {subsection}{\numberline {4.2}results}{5}{subsection.4.2}
-\contentsline {subsection}{\numberline {4.3}conclusion}{5}{subsection.4.3}
-\contentsline {section}{\numberline {5}Particle Swarm Optimization}{5}{section.5}
-\contentsline {subsection}{\numberline {5.1}code}{5}{subsection.5.1}
-\contentsline {subsection}{\numberline {5.2}results}{6}{subsection.5.2}
-\contentsline {subsection}{\numberline {5.3}conclusion}{6}{subsection.5.3}
-\contentsline {section}{\numberline {6}Utility functions}{6}{section.6}
+\contentsline {subsection}{\numberline {4.3}conclusion}{6}{subsection.4.3}
+\contentsline {section}{\numberline {5}Particle Swarm Optimization}{6}{section.5}
+\contentsline {subsection}{\numberline {5.1}code}{7}{subsection.5.1}
+\contentsline {subsection}{\numberline {5.2}results}{7}{subsection.5.2}
+\contentsline {subsection}{\numberline {5.3}conclusion}{8}{subsection.5.3}
+\contentsline {section}{\numberline {A}Utility functions}{8}{appendix.A}
+\contentsline {section}{\numberline {B}Matlab output}{9}{appendix.B}
