@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2012.10.21)  22 APR 2014 20:24
+This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2012.10.21)  23 APR 2014 01:58
 entering extended mode
 **report.tex
 (C:\Users\Dieter\Desktop\git\GeneticAlg\report\report.tex
@@ -697,29 +697,17 @@ LaTeX Info: Redefining \nameref on input line 63.
  ABD: EveryShipout initializing macros
 (C:\Users\Dieter\Desktop\git\GeneticAlg\report\report.toc)
 \tf@toc=\write5
-
-No file report.lof.
-\tf@lof=\write6
-! Undefined control sequence.
-l.67 \listoflistings
-                    
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-[1
+ [1
 
 {C:/Users/Dieter/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}]
-<figures/assignment.png, id=79, 1051.93pt x 528.97626pt>
+<figures/assignment.png, id=78, 1051.93pt x 528.97626pt>
 File: figures/assignment.png Graphic file (type png)
 
 <use figures/assignment.png>
 Package pdftex.def Info: figures/assignment.png used on input line 78.
 (pdftex.def)             Requested size: 315.58144pt x 158.69409pt.
 
-<figures/mesh.png, id=84, 422.32782pt x 316.18124pt>
+<figures/mesh.png, id=83, 422.32782pt x 316.18124pt>
 File: figures/mesh.png Graphic file (type png)
  <use figures/mesh.png>
 Package pdftex.def Info: figures/mesh.png used on input line 101.
@@ -742,7 +730,7 @@ nput line 110.
 (C:\Users\Dieter\Desktop\git\GeneticAlg\ga.m
 LaTeX Font Info:    Font shape `OT1/cmtt/bx/n' in size <9> not available
 (Font)              Font shape `OT1/cmtt/m/n' tried instead on input line 1.
-) [4]
+ [4])
 (C:\Users\Dieter\Desktop\git\GeneticAlg\pso.m) [5]
 (C:\Users\Dieter\Desktop\git\GeneticAlg\weight.m)
 (C:\Users\Dieter\Desktop\git\GeneticAlg\meshweight.m)
@@ -760,13 +748,13 @@ Package rerunfilecheck Info: File `report.out' has not changed.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 128.
  ) 
 Here is how much of TeX's memory you used:
- 16437 strings out of 494045
- 282318 string characters out of 3145965
- 619170 words of memory out of 3000000
- 19287 multiletter control sequences out of 15000+200000
+ 16444 strings out of 494045
+ 282438 string characters out of 3145965
+ 624291 words of memory out of 3000000
+ 19291 multiletter control sequences out of 15000+200000
  10343 words of font info for 38 fonts, out of 3000000 for 9000
  715 hyphenation exceptions out of 8191
- 56i,12n,55p,418b,1778s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 56i,12n,55p,418b,2325s stack positions out of 5000i,500n,10000p,200000b,50000s
 <C:/Program Files (x86)/MikTex 2.9/fonts/type1/public/amsfonts/cm/cmbx10.pfb>
 <C:/Program Files (x86)/MikTex 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C
 :/Program Files (x86)/MikTex 2.9/fonts/type1/public/amsfonts/cm/cmitt10.pfb><C:
@@ -779,9 +767,9 @@ les (x86)/MikTex 2.9/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Program Files
 6)/MikTex 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files (x86)
 /MikTex 2.9/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Program Files (x86)/Mi
 kTex 2.9/fonts/type1/public/amsfonts/cm/cmtt9.pfb>
-Output written on report.pdf (7 pages, 585083 bytes).
+Output written on report.pdf (7 pages, 586616 bytes).
 PDF statistics:
- 321 PDF objects out of 1000 (max. 8388607)
- 153 named destinations out of 1000 (max. 500000)
+ 326 PDF objects out of 1000 (max. 8388607)
+ 157 named destinations out of 1000 (max. 500000)
  119 words of extra memory for PDF output out of 10000 (max. 10000000)
 

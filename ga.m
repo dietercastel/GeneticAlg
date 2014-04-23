@@ -2,7 +2,6 @@ function [ Generation ] = ga(PopSize , BreedSize, SurvivorSize, MutChance, Itera
 %GA Runs the genetic algorithm with the given parameters.
 
 Population = randi(10,PopSize,2);
-
 Generation = zeros(PopSize, 3);
 
 for i=1:PopSize
@@ -17,16 +16,14 @@ Survivors = SortedGeneration(end-(BreedSize+SurvivorSize):end-BreedSize,:);
 
 %Breed to create BreedSize Children
 Children = zeros(BreedSize,3);
-
-%Keep first coordinate.
-for j=1:BreedSize
-    MutMod1 = 0;
-    MutMod2 = 0;
-    
+for j=1:BreedSize 
     %Select the first/second gene of the first/second parent to keep.
     geneselector1 = randi(2);
     geneselector2 = mod(geneselector1, 2) +1;
 
+    % Mutations
+    MutMod1 = 0;
+    MutMod2 = 0;
     if rand(1)<MutChance
         MutMod1 = round(randi(1));
     end
@@ -34,6 +31,7 @@ for j=1:BreedSize
         MutMod2 = round(randi(1));
     end
     
+    %Combine the current best parent with others.
     Gene1 = Parents(end,geneselector1)+MutMod1;
     Gene2 = Parents(j,geneselector2)+MutMod2;
     Children(j,geneselector1) = Gene1;
